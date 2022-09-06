@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing:border-box
+}
+body{
+    background-color: #ECF39E;
+}
+
+h1{
+    text-align: center;
+    color:green;
+    padding: 20px;
+
+}
+
+nav{
+    background-color: #4F772D;
+    display: grid;
+    place-items: center;
+}
+nav ul {
+    list-style-type:none;
+
+}
+
+nav ul a{
+    display:inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: #000;
+    transition:0.2s ease-in;
+    font-size: 18px;
+}
+nav ul a:hover{
+    background-color: #90A955;
+    color:antiquewhite;
+}
+
+.items{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    padding:30px 20px;
+    grid-column-gap:20px;
+    grid-row-gap:30px;
+}
+.item img{
+     width: 100%;
+     height:300px;
+     object-fit: cover;
+     cursor: pointer;
+     transition: 0.2s ease;
+}
+.item img:hover{
+    transform: scale(1.04);
+}
+.item h4{
+    padding: 5px;
+    text-align:center;
+
+}
+.item button{
+    padding: 5px 30px;
+    border:none;
+    outline:none;
+    background-color: #90A955;
+    color:#ECF39E ;
+    cursor: pointer;
+    border-radius:4px;
+    font-size: 20px;
+    display:block;
+    margin:0 auto;
+    transition:0.2s all;
+
+}
+
+.item button:hover{
+    transform:scale(1.08);
+}
+.popup-content{
+    height:250px;
+    width:500px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    border-radius: 5px;
+    position:relative;
+}
+.popup-content.input{
+    margin: 20px auto;
+    display: block;
+    width:50%;
+    border:1px solid gray
+
+}
+.close{
+    position:absolute;
+    top: -15px;
+    right:-15px;
+    background: #fff;
+    height:20px;
+    width:20px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 29px -4px rgba(red, green, blue, alpha);
+    cursor: pointer;
+}
+  
+.container{
+    background-color:#90A955;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 2px; 
+    margin-bottom: 1px; 
+    resize: vertical 
+  }
+  
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  
+  .container2 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+@media screen and(max-width:1000px){
+    .items{
+        grid-template-columns:repeat(2,1fr)
+    }
+}
