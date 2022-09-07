@@ -1,15 +1,22 @@
 a) FOOD  Api.
 
-By Ian Gacheru
+By AWADH HASSAN AWADH
 b) Table of Content
 
 •  [Description](#description)
+
 •  [Installation Requirement](#Installation)
+
 •  [Technology Used](#technology-used)
+
 •  [Project Preview]
+
 •  [Reference](#reference)
+
 •  [License](#license)
+
 •  [Authors Info](#author-Info)
+
 c) Description
 
 This is a website shows a list of pizza according to the customer preference and they can order 
