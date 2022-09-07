@@ -1,6 +1,7 @@
 a) FOOD  Api.
 
-By Ian Gacheru
+By AWADH HASSAN
+
 b) Table of Content
 
 •  [Description](#description)
@@ -10,6 +11,9 @@ b) Table of Content
 •  [Reference](#reference)
 •  [License](#license)
 •  [Authors Info](#author-Info)
+
+
+
 c) Description
 
 This is a website shows a list of pizza according to the customer preference and they can order 
@@ -17,11 +21,15 @@ and also can submit complaints or feedback
 
 d) Installation~Requirements
 
+
+
 Either a computer,phone,tablet.
 
 An access to the Internet.
 
 Fork and clone in the repository above, run json-server db.json / json-server --watch db.json to launch the application programming interface.
+
+
 
 e) Installation Process Technology Used:-**
 
@@ -30,6 +38,9 @@ e) Installation Process Technology Used:-**
 •   CSS - which was used to style the pages. 
   
 •  JavaScript – Used to add functionality to the web page.
+
+
+
 
 f) Project Preview
 
@@ -40,6 +51,10 @@ Grepper code
 Tutorials-point
 MDN JavaScript
 W3 Schools
+
+
+
+
 h) **** License****
 
 MIT License
