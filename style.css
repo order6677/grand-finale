@@ -38,15 +38,6 @@ nav ul a:hover{
     color:antiquewhite;
 }
 
-.about-section,
-.item,
-.contact-section{
-
-    height: 100vh;
-    display: flex;
-
-}
-
 .items{
     display: grid;
     grid-template-columns:repeat(3, 1fr);
