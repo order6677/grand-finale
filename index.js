@@ -8,7 +8,7 @@ fetch("https://foodish-api.herokuapp.com/api/")
 
 
 const form6 = document.querySelector("#pizza-btn").addEventListener("click",function click(){
-    alert(" HAWAIAN PIZZA READY ..BON APPETITE")
+    alert(" HAWAIAN  PINAPPLE PIZZA READY ..BON APPETITE")
 })
 
 const form = document.querySelector("#pizza-btn-2").addEventListener("click",function click(){
