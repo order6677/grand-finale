@@ -39,9 +39,12 @@ nav ul a:hover{
 }
 
 .about-section,
-.service-section,
+.item,
 .contact-section{
-    
+
+    height: 100vh;
+    display: flex;
+
 }
 
 .items{
