@@ -45,5 +45,5 @@ myra.addEventListener('submit',function(event){
 
     const subject = document.getElementById('subject').value
 
-    console.log(subject)
+    alert(subject)
 })
