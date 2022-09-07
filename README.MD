@@ -36,6 +36,7 @@ f) Project Preview
 
 g) Reference
 
+Grepper code
 Tutorials-point
 MDN JavaScript
 W3 Schools
@@ -51,4 +52,4 @@ The above copyright notice and this permission notice shall be included in all c
 
 i) Authors Info
 
-Linked – [Ian Gacheru - https://www.linkedin.com/in/ian-kibui-b12121160/)
+Linked – [AWADH HASSAN - https://www.linkedin.com/in/awadh-hassan-169054217/)
