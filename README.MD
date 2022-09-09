@@ -45,7 +45,7 @@ e) Installation Process Technology Used:-**
 
 
 
-f) Project Preview
+f) live link:https://github.com/order6677/grand-finale.git
 
 
 g) Reference
